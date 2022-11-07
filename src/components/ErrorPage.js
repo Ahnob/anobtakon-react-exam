@@ -10,11 +10,13 @@ const ErrorPage = () => {
         <link rel="canonical" href="/error" />
       </Helmet>
       <h3 className="error">
-        <span>404</span> page not found
+        <h1>404</h1>
+        <h3>page not found</h3>
       </h3>
       <div className="second-error-container">
         <h3>
-          Looks like this page went on vacation.. Not to worry, everything is
+          Looks like this page went on vacation..
+          <h3>Not to worry, everything is</h3>
           awesome!
         </h3>
       </div>
