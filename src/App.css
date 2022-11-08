@@ -17,10 +17,11 @@ body {
 button{
   padding:12px;
   margin:10px;
-  background-color:#054d7c;
+  background-color:#a34607;
   color:white;
   border:none;
   border-radius: 10px;
+  font-size: 18px;
 }
 
 .myred{
@@ -41,10 +42,11 @@ span{
 }
 
 .btn-reducer{
-  background-color: rgb(11, 12, 15);
-  color: rgb(238, 231, 231);
+  background-color: rgb(194, 73, 25);
+  color: rgb(240, 232, 232);
   border-radius: 10px;
   border: none;
+  font-size: 18px;
 }
 
 .container{

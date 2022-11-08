@@ -64,7 +64,7 @@ const ReducerRoutes = () => {
         onClick={() => dispatch({ type: "setnumber" })}
         className="btn-reducer"
       >
-        setnumber
+        Setvalue
       </button>
     </div>
   );

@@ -27,7 +27,7 @@ const Home = () => {
         <button onClick={increase}>Increase</button>
         <button onClick={decrease}>Decrease</button>
         <button onClick={reset}>Reset</button>
-        <button onClick={setnumber}>setnumber</button>
+        <button onClick={setnumber}>Setvalue</button>
       </div>
     </div>
   );
