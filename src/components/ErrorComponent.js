@@ -22,7 +22,7 @@ const Bomb = () => {
     }
     return (
       <>
-        <p>{`Hi ${username}`}</p>
+        <p className="bomb-message">{`Hi ${username}`}</p>
       </>
     );
   }

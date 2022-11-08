@@ -9,7 +9,7 @@ body {
   vertical-align: center;
   background-repeat: no-repeat;
   background-size: cover;
- background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200729/pngtree-background-vector-design-of-sun-hiding-in-the-desert-image_371602.jpg " ); 
+ background-image: url("https://i.pinimg.com/736x/ce/f1/58/cef1583699f30830bd02c9dfa66dafad.jpg" ); 
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -17,8 +17,8 @@ body {
 button{
   padding:12px;
   margin:10px;
-  background-color:#a34607;
-  color:white;
+  background-color:#e2e0de;
+  color:#000;
   border:none;
   border-radius: 10px;
   font-size: 18px;
@@ -42,8 +42,8 @@ span{
 }
 
 .btn-reducer{
-  background-color: rgb(194, 73, 25);
-  color: rgb(240, 232, 232);
+  background-color: rgb(236, 230, 228);
+  color: rgb(49, 48, 48);
   border-radius: 10px;
   border: none;
   font-size: 18px;
@@ -83,11 +83,17 @@ span{
   font-size: 20px;
   text-decoration: none;
   cursor: pointer;
+  color: #fff;
+}
+
+Link:active{
+  border-bottom: 1px solid black;
 }
 
 .bomb{
   margin-top: 50px;
   font-size: 30px;
+  color: #fff;
 }
 
 input{
@@ -97,3 +103,7 @@ input{
   border: none;
 }
 
+.bomb-message{
+  font-size: 15px;
+  color: #e2e0de;
+}
