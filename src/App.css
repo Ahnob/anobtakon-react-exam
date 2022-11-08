@@ -1,26 +1,35 @@
 .App {
   text-align: center;
   margin: 50px auto;
+
 }
 
 body {
   text-align: center;
   vertical-align: center;
-  background-color: #ccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: url(" https://images-cdn.welcomesoftware.com/Zz05NmM1YjFjYjhlNDIxMWViODczZWQzYzBkNTFlNDU4ZA=="); 
 
 }
+
 button{
   padding:12px;
   margin:10px;
-background-color:#11a211;
-  color:white
+  background-color:#054d7c;
+  color:white;
+  border:none;
+  border-radius: 10px;
 }
+
 .myred{
   color:red;
 }
+
 .mygreen{
   color:green;
 }
+
 .number{
   font-size:40px;
 }
@@ -30,12 +39,39 @@ span{
   text-align: center;
 }
 
-
 .btn-reducer{
-  background-color: rgb(25, 76, 185);
+  background-color: rgb(11, 12, 15);
   color: rgb(238, 231, 231);
-  border-radius: 20%;
+  border-radius: 10px;
   border: none;
+}
+
+.container{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #fff;
+  margin: 50px auto 0 auto;
+  width: 300px;
+  padding: 10px;
+}
+
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.error-number{
+  color:rgb(92, 5, 5);
+  font-size:20px;
+
+}
+
+.error-image{
+  width: 200px;
+}
+
+.error{
+  display: flex;
+  flex-direction: column;
 }
 
 .Link-style{
@@ -43,4 +79,7 @@ span{
   padding: 10px;
   font-size: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
+
+

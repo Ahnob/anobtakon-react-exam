@@ -9,17 +9,27 @@ const ErrorPage = () => {
         <meta name="description" content="Showing error" />
         <link rel="canonical" href="/error" />
       </Helmet>
-      <h3 className="error">
-        <h1>404</h1>
-        <h3>page not found</h3>
-      </h3>
-      <div className="second-error-container">
-        <h3>
-          Looks like this page went on vacation..
-          <h3>Not to worry, everything is</h3>
-          awesome!
-        </h3>
+      <img
+        src="https://previews.123rf.com/images/boians/boians1708/boians170802965/83284060-3d-repair-person-character-is-holding-the-spanner-and-laptop-.jpg"
+        alt="error"
+        className="error-image"
+      />
+      <div className="error">
+        <div className="error-number">
+          <h1>404</h1>
+        </div>
+
+        <div>
+          <h2>Page not found</h2>
+          <h2>Click on any of the above links to find something awesome</h2>
+        </div>
       </div>
+      {/* <div className="second-error-container">
+        <h2>
+          Looks like this page went on vacation.. Not to worry, everything is
+          awesome!
+        </h2>
+      </div> */}
     </div>
   );
 };
