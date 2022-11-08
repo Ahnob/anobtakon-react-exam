@@ -1,1 +1,1 @@
-anob-counter-app.netlify.app
+https://anobtakon-counter-app.netlify.app
