@@ -1,5 +1,5 @@
 import { ErrorBoundary } from "react-error-boundary";
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { useState, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 
