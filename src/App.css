@@ -88,7 +88,7 @@ span{
 }
 
 
-.active, .Link:hover {
+.Link-style:hover {
   background-color: rgb(224, 218, 218);
   color: rgb(29, 26, 26);
 }
