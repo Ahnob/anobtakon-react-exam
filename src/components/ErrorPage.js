@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
@@ -20,16 +21,15 @@ const ErrorPage = () => {
         </div>
 
         <div>
-          <h2>Page not found</h2>
-          <h2>Click on any of the above links to find something awesome</h2>
+          <h2>
+            Page not found. Please click the button below to find something
+            awesome.
+          </h2>
+          <Link to="/" className="link">
+            <button>Go back</button>
+          </Link>
         </div>
       </div>
-      {/* <div className="second-error-container">
-        <h2>
-          Looks like this page went on vacation.. Not to worry, everything is
-          awesome!
-        </h2>
-      </div> */}
     </div>
   );
 };
