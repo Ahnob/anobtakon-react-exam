@@ -8,7 +8,7 @@ import Bomb from "./components/ErrorComponent";
 function App() {
   return (
     <div className="App">
-      <Link to="/about" className="Link-style">
+      <Link to="/about" className="Link-style active">
         useReducer
       </Link>
       <Link to="/" className="Link-style">

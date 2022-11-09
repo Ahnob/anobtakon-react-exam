@@ -84,10 +84,13 @@ span{
   text-decoration: none;
   cursor: pointer;
   color: #fff;
+  text-transform: capitalize;
 }
 
-Link:active{
-  border-bottom: 1px solid black;
+
+.active, .Link:hover {
+  background-color: rgb(224, 218, 218);
+  color: rgb(29, 26, 26);
 }
 
 .bomb{
