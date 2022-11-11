@@ -81,6 +81,11 @@ button:hover{
   width: 200px;
 }
 
+.eb-btn{
+  background-color: rgb(161, 73, 73);
+  color: #e2e0de;
+}
+
 .error{
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 import { ErrorBoundary } from "react-error-boundary";
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import { useState, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 
@@ -59,6 +59,9 @@ const Bomb = () => {
         <Bomb username={username} />
       </ErrorBoundary>
       <Outlet />
+      <Link to="/" className="link">
+        <button className="eb-btn">Go back</button>
+      </Link>
     </div>
   );
 };
